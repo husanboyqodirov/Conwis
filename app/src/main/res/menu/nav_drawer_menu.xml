@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Assistive Section">
+        <menu>
+            <item android:id="@+id/menuTTS"
+                android:icon="@drawable/ic_tts"
+                android:title="Text to Speech" />
+            <item android:id="@+id/menuSTT"
+                android:icon="@drawable/ic_stt"
+                android:title="Speech to Text " />
+        </menu>
+    </item>
+
+    <item
+        android:title="Training Section">
+        <menu>
+            <item
+                android:icon="@drawable/ic_pronunciation"
+                android:id="@+id/menu_pronunciation"
+                android:title="Pronunciation Exercise"/>
+        </menu>
+    </item>
+    <item
+        android:title="Help">
+        <menu>
+            <item android:id="@+id/menu_update"
+                android:icon="@drawable/ic_update"
+                android:title="@string/dasturni_yangilash" />
+            <item android:id="@+id/menu_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item android:id="@+id/menu_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/xabar_yo_llash" />
+            <item android:id="@+id/menu_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/dastur_haqida" />
+        </menu>
+    </item>
+
+</menu>

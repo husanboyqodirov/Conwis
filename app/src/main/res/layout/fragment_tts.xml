@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layoutTTS"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/tts_image"
+            android:layout_marginTop="-100dp"/>
+
+        <EditText
+            android:id="@+id/edtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="What you want to say..."
+            android:inputType="textMultiLine"
+            android:padding="20dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnSpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/rounded_button"
+            android:padding="20dp"
+            android:text="Speak Out"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

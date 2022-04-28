@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_info"
+        android:textSize="15sp"
+        android:gravity="start" />
+    <CheckedTextView
+        android:id="@+id/checkedEnglishUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:checked="false"
+        android:text="   English (US)"
+        android:drawableLeft="@drawable/united_states"
+        android:gravity="center_vertical"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>
+
+    <CheckedTextView
+        android:id="@+id/checkedKorean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:checked="false"
+        android:text="   Korean"
+        android:drawableLeft="@drawable/south_korea"
+        android:gravity="center_vertical"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>
+
+    <Button
+        android:id="@+id/btnSelectTTSLang"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"
+        android:text="Choose Language"
+        android:textColor="@android:color/white"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="64dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp" />
+
+</LinearLayout>

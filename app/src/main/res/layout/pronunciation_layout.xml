@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/starterLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:background="@drawable/cloud_wall"-->
+<!--        android:visibility="visible">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/personvoice"/>-->
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Begin Exercise"-->
+<!--            android:background="@drawable/rounded_button"-->
+<!--            android:padding="15dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20sp"/>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F1F1"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txtWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            android:text="word"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPronunciation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="word"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imgSpeakUp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_speak_up"/>
+
+        <ImageView
+            android:id="@+id/imgResult"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/listening" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Next"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnPronounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/rounded_button"
+            android:padding="15dp"
+            android:text="Pronounce"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

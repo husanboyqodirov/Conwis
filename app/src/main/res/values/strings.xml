@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY version "v1.0">]>
+
+<resources>
+    <string name="app_name">ConWis</string>
+    <string name="about_text">ConWis &version;\n\n
+        Assistive Application for people with hearing
+        and speaking disorders.\n\n
+        Developer: Husanboy Qodirov
+    </string>
+    <string name="dasturni_yangilash">Check for Update</string>
+    <string name="xabar_yo_llash">Contact Us</string>
+    <string name="dastur_haqida">About</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="feedback_instruction">If you have any questions, recommendations or feedback about this application, please feel free to send us you message. Include your e-mail address. This will help us to reply your message.</string>
+    <string name="version">&version;</string>
+    <string name="settings_info">ConWis text to speech and speech recognition engines supports many languages. Here, you can select your preferred language.</string>
+</resources>

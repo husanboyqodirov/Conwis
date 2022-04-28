@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="@string/feedback_instruction" />
+
+    <EditText
+        android:id="@+id/editIsm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="10dp"
+        android:hint="Your name"/>
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Your email"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/txtXabar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Enter your message..."
+        android:layout_marginTop="10dp"/>
+    <RatingBar
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="1"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
